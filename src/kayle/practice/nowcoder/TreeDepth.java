@@ -28,7 +28,7 @@ public class TreeDepth {
         if(root == null) {
         	return 0;
         }
-        return Math.max( 1 + treeDepth(root.left), 1 + treeDepth(root.right));
+        return 1 + Math.max(treeDepth(root.left), treeDepth(root.right));
     }
     
 }
