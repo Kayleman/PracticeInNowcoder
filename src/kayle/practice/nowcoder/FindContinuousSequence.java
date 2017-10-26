@@ -14,6 +14,7 @@ import java.util.ArrayList;
  * 当当前总和小于目标和的时候,将big向后移,并加上big的值
  * 在相等的时候,把从small到big的数字都存到list里,再把list添加到res
  * 同时把small和big都向后移,并且curSum减去small再加上新的big值也就是big+1
+ * 
  * */
 public class FindContinuousSequence {
     public static ArrayList<ArrayList<Integer>> findContinuousSequence(int sum) {
