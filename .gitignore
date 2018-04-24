@@ -1,1 +1,8 @@
 /build/
+*.class
+.classpath
+.project
+*.iml
+*.idea
+*.xml
+*.prefs
