@@ -1,4 +1,4 @@
-package practice.nowcoder;
+package kayle.practice.nowcoder;
 
 /*
  * 利用位运算来实现加减乘除，有时候编写程序中遇到不允许使用加减乘除的时候能用上。

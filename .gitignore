@@ -8,3 +8,4 @@
 *.xml
 *.prefs
 *.DS_Store
+*build/
