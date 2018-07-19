@@ -38,7 +38,7 @@ public class Dijkstra {
             int dmin = Integer.MAX_VALUE;
             for(int i = 0; i < n; i++){
                 //距离最小且没访问过
-                if(visited[i]==false && weight[start][i]<dmin){
+                if(visited[i] == false && weight[start][i] < dmin){
                     dmin = weight[start][i];
                     k = i;
                 }

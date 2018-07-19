@@ -2,7 +2,7 @@ package nowcoder2017;
 
 import java.util.Scanner;
 
-/*
+/**
 * 题目描述:
 * 有 n 个学生站成一排，每个学生有一个能力值，牛牛想从这 n 个学生中按照顺序选取 k 名学生，
 * 要求相邻两个学生的位置编号的差不超过 d，使得这 k 个学生的能力值的乘积最大，你能返回最大的乘积吗？
@@ -35,7 +35,7 @@ import java.util.Scanner;
 * 同理max[k+1][i+1]=min(min[k][i]*power[i+1],max[k][i]*power[i+1])。
 * 最后，遍历一遍max[K][i]求得最大值（i从1～N）。
 * */
-public class Choir {
+public class NetEase_Choir {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while(sc.hasNext()) {
