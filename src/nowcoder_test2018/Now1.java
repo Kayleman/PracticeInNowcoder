@@ -1,4 +1,4 @@
-package nowcoder2017;
+package nowcoder_test2018;
 
 import java.util.Scanner;
 public class Now1 {

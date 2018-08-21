@@ -27,6 +27,35 @@ public class SortAlgorithm {
             }
         }
     }
+    /**
+     * 二分插入排序
+     * */
+    public static void binaryInsertSort(int[] array) {
+        for(int i = 1; i < array.length; i++) {
+            int temp = array[i];
+            int left = 0;
+            int right = i - 1;
+            int mid = 0;
+            while (left <= right) {
+                mid = (left + right) / 2;
+                if(temp < array[mid]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            }
+
+            //left为插入的坑位，要向后移动留出坑位
+            if(i != left) {
+                for (int j = i; j > left; j--) {
+                    array[j] = array[j - 1];
+                }
+                array[left] = temp;
+                System.out.println(Arrays.toString(array));
+            }
+
+        }
+    }
 
     /**
      * 希尔排序
