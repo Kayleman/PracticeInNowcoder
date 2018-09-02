@@ -1,5 +1,18 @@
 package algorithm.nowcoder_algorithm;
-
+/**
+ * 题目：
+ * 现在有一个单链表。链表中每个节点保存一个整数，再给定一个值val，把所有等于val的节点删掉。
+ * 给定一个单链表的头结点head，同时给定一个值val，
+ * 请返回清除后的链表的头结点，保证链表中有不等于该值的其它值。请保证其他元素的相对顺序。
+ *
+ * 测试样例：
+ * {1,2,3,4,3,2,1},2
+ * {1,3,4,3,1}
+ *
+ * 解题思路：
+ * 老师建议是不使用pre的方法，使用复制结点来删除后一个结点，但是无法删除最后一个结点。
+ * 于是直接使用pre的方法，比较简单，直接删除结点即可。
+ * */
 public class test5_8 {
     public ListNode clear(ListNode head, int val) {
         // write code here
