@@ -1,9 +1,6 @@
-package algorithm;
+package exam;
 
-/**
- * 使用KMP算法来求解子串出现的位置
- * */
-public class KMP {
+public class WY_1 {
     //首先计算next数组
     public static void calNext(String pattern, int[] next) {
         int len = pattern.length();
